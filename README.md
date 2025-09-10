@@ -1,4 +1,4 @@
-githubLink:-https://github.com/rashiya795/youtubeClone
+githubLink:-https://github.com/rashiya795/YouTube_Clone
 
 Project Overview
 
