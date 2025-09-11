@@ -27,6 +27,8 @@ app.use(cors({
 // ===============================
 // MongoDB Connection
 // ===============================
+console.log('MONGO_URI value:', process.env.MONGO_URI);
+
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,    // Use new URL parser (avoids deprecation warning)
   useUnifiedTopology: true  // Use new server discovery and monitoring engine
